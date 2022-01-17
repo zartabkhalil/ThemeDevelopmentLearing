@@ -1,3 +1,16 @@
-<?php 
+<?php
+/**
+    * Index File
+    *
+    *
+    * @package Theme1.4
+*/
 
-//Initializing Theme
+get_header(  );
+?>
+
+<content><h1>I am header</h1></content>
+
+<?php
+    get_footer();
+?>
