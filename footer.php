@@ -8,7 +8,7 @@
 
 ?>
 
-
+<?php wp_footer()?>
 <footer><H3>I am footer</H3></footer>
 </body>
 </html>
