@@ -1,0 +1,3 @@
+<?php 
+
+//Initializing Theme
