@@ -19,7 +19,15 @@
     <?php wp_head()?>
 </head>
 <body <?php body_class(  )?> >
-    <?php wp_body_open(  )?>
+    <?php function_exists( 'wp_body_open' ){
+        wp_body_open(  )
+        }
+    ?>
     
-    <header><h1>I am header</h1></header>
+    <div id="site" class="site">
+    <header>
+        <?php get_template_part( 'template-parts/header/nav' )?>
+    </header>
+    <div id="content">
+    
    

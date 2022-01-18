@@ -9,6 +9,8 @@
 ?>
 
 <?php wp_footer()?>
-<footer><H3>I am footer</H3></footer>
+    </div>
+</div>
+
 </body>
 </html>
