@@ -21,7 +21,6 @@ class Aquila_Theme_class{
 
 	public function setup_theme(){
             add_theme_support( 'title-tag' );
-      
             add_theme_support( 'custom-logo', [
                   'header-text'     =>  ['site-tile','site-description'],
                   'height'          =>  100,
@@ -30,6 +29,14 @@ class Aquila_Theme_class{
                   'flex-height'     => true,
                   
                   ] );
+                  
+            add_theme_support('custom-background',[
+                  'default-color'   => '#fff00',
+			// 'default-image' => get_template_directory_uri() . '/images/wapuu.jpg',
+			// 'default-position-x' => 'right',
+			// 'default-position-y' => 'top',
+			'default-repeat'     => 'no-repeat',
+		]);
 	}
 
 
