@@ -10,13 +10,17 @@ use  Aqlia_Theme\Inc\Traits\Singleton;
     use Singleton;
     protected function __construct(){
         Assets::get_instance();
+        $this->set_hooks();
     }
 
 
     protected function set_hooks(){
-        
+        add_action( 'after_setup_theme',[$this,'setup_theme']);
     }
-
+    
+    public function setup_theme(){
+        add_theme_support( 'title-tag' );
+    }
 
 
 
