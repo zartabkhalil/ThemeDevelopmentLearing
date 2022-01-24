@@ -37,6 +37,25 @@ class Aquila_Theme_class{
 			// 'default-position-y' => 'top',
 			'default-repeat'     => 'no-repeat',
 		]);
+		add_theme_support( 'post-thumbnail',);
+		add_theme_support( 'customize-selective-refresh-widgets' );
+		add_theme_support( 'automatic-feed-links' );
+		add_theme_support( 'html5',[
+			'search-form',
+			'comment-form',
+			'comment-list',
+			'gallery',
+			'caption',
+			'script',
+			'style'
+		] );
+		
+		//add custom style to tynimc editor
+		add_editor_style(  );
+		add_theme_support('wp-block-styles');
+		
+		//align of gutenberg block
+		add_theme_support( 'align-wide' );
 	}
 
 
