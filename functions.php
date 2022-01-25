@@ -15,8 +15,14 @@ if( !defined( 'AQUILA_DIR_URI' )){
     define( 'AQUILA_DIR_URI' , untrailingslashit( get_template_directory_uri() ) );
 }
 
+
+require AQUILA_DIR_PATH.'/inc/classes/aquila-assets.php';
+require AQUILA_DIR_PATH.'/inc/classes/aquila-menus.php';
+
+
 require AQUILA_DIR_PATH.'/inc/classes/aquila-class.php';
- 
+
+
 Aqulia_Theme\Inc\Aquila_Theme_class::get_instance();
 
 
