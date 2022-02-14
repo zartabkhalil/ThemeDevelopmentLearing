@@ -12,7 +12,7 @@ get_header(  );
 
 
     <?php 
-        if( !have_posts() ):
+        if( have_posts() ):
     ?>
         <div class="container mt-5">
     <?php

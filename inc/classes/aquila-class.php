@@ -36,7 +36,12 @@ class Aquila_Theme_class{
 			// 'default-position-y' => 'top',
 			'default-repeat'     => 'no-repeat',
 		]);
-		add_theme_support( 'post-thumbnail',);
+		add_theme_support( 'post-thumbnails',);
+		/**
+			*Register Image size
+		*/
+		add_image_size( 'featured-thumbnail', 350, 233, true );
+		
 		add_theme_support( 'customize-selective-refresh-widgets' );
 		add_theme_support( 'automatic-feed-links' );
 		add_theme_support( 'html5',[

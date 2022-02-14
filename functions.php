@@ -21,6 +21,7 @@ require AQUILA_DIR_PATH.'/inc/classes/aquila-menus.php';
 
 
 require AQUILA_DIR_PATH.'/inc/classes/aquila-class.php';
+require AQUILA_DIR_PATH.'/inc/helpers/template-tags.php';
 
 
 Aqulia_Theme\Inc\Aquila_Theme_class::get_instance();
